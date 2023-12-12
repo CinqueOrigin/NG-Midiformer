@@ -7,8 +7,11 @@
 ```
 python -m torch.distributed.launch --nproc_per_node 4 PreTrain.py --model_name_or_path ZEN2-345M  --cache_dir ./cache --train_file ../dataSet/PianoDataset/unicodesCP/mergeUnicodeFilePiano.txt  --validation_split_percentage 5 --line_by_line false --per_device_train_batch_size 4 --per_device_eval_batch_size 16 --do_train true --do_eval true --output_dir ./outputUCW7 --logging_dir ./outputUCW7 --max_seq_length 512 --num_train_epochs 10 --do_eval true --save_steps 5000
 ```
-2) or you can download our pre-trained checkpoint with the following checkpoints:
-
+2) or you can download our pre-trained checkpoint with the following links:
+```
+url : https://pan.baidu.com/s/1OlKeB5GuZRkaFtHvVf3jvw
+password : wouu 
+```
 
 
 
