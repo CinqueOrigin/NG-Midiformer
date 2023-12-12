@@ -57,13 +57,19 @@ pip install -r requirments.txt
 
 ### 3.Convert midi dataset to CP sequences
 cd midi-preprocess
+
 see midi-preprocess/README.md
+
 ### 4.Convert CP sequences to UCW sequences
 cd UnsupervisedCompoundation
+
 see UnsupervisedCompoundation/README.md
+
 ### 5.run pre-training or download pre-traininged checkpoints,and fine-tuning on downstream datasets
 cd main
+
 see main/README.md
+
 
 
 
