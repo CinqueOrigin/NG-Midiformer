@@ -3,6 +3,7 @@
 # N-Gram Unsupervised Compoundation and Feature Injection for Better Symbolic Music Understanding
 
 Our paper has been accepted by AAAI2024 conference! Congratulations!
+links: https://arxiv.org/abs/2312.08931
 
 ## Abstract
 In this paper, we propose a novel method, NG-Midiformer, for understanding symbolic music sequences that leverages the N-gram approach. Our method involves first processing music pieces into word-like sequences with our proposed unsupervised compoundation, followed by using our N-gram Transformer encoder, which can effectively incorporate N-gram information to enhance the primary encoder part for better understanding of music sequences. The pre-training process on large-scale music datasets enables the model to thoroughly learn the N-gram information contained within music sequences, and subsequently apply this information for making inferences during the fine-tuning stage. Experiment on various datasets demonstrate the effectiveness of our method and achieved state-of-the-art performance on a series of music understanding downstream tasks.
