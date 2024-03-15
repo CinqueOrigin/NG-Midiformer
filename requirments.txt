@@ -12,9 +12,9 @@ torchmetrics==0.10.3
 evaluate==0.3.0
 pandas
 argparse
-json
-logging
-csv
-itertools
-pickle
-
+Cython
+madmom
+librosa
+miditoolkit==0.1.16
+chorder==0.1.4
+miditoolkit==0.1.16
