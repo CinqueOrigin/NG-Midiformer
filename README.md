@@ -71,6 +71,25 @@ cd main
 
 see main/README.md
 
+## Citation
 
+```
+@article{Tian_Li_Li_Wang_2024, 
+title={N-gram Unsupervised Compoundation and Feature Injection for Better Symbolic Music Understanding}, 
+volume={38},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/29461},
+DOI={10.1609/aaai.v38i14.29461}, 
+abstractNote={The first step to apply deep learning techniques for symbolic music understanding is to transform musical pieces (mainly in MIDI format) into sequences of predefined tokens like note pitch, note velocity, and chords. Subsequently, the sequences are fed into a neural sequence model to accomplish specific tasks.
+Music sequences exhibit strong correlations between adjacent elements, making them prime candidates for N-gram techniques from Natural Language Processing (NLP). Consider classical piano music: specific melodies might recur throughout a piece, with subtle variations each time.
+In this paper, we propose a novel method, NG-Midiformer, for understanding symbolic music sequences that leverages the N-gram approach. Our method involves first processing music pieces into word-like sequences with our proposed unsupervised compoundation, followed by using our N-gram Transformer encoder, which can effectively incorporate N-gram information to enhance the primary encoder part for better understanding of music sequences.
+The pre-training process on large-scale music datasets enables the model to thoroughly learn the N-gram information contained within music sequences, and subsequently apply this information for making inferences during the fine-tuning stage.
+Experiment on various datasets demonstrate the effectiveness of our method and achieved state-of-the-art performance on a series of music understanding downstream tasks. The code and model weights will be released at https://github.com/CinqueOrigin/NG-Midiformer.}, 
+number={14}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Tian, Jinhao and Li, Zuchao and Li, Jiajia and Wang, Ping}, 
+year={2024},
+month={Mar.}, 
+pages={15364-15372} }
+```
 
 
